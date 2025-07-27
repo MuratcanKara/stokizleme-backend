@@ -1,0 +1,38 @@
+# FastAPI ve temel bağımlılıklar (Python 3.13 uyumlu)
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Veritabanı
+sqlalchemy>=2.0.0
+alembic>=1.13.0
+
+# HTTP client
+httpx>=0.25.0
+requests>=2.31.0
+
+# Web scraping
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# Asenkron görevler
+celery>=5.3.0
+redis>=5.0.0
+
+# Güvenlik
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.0
+python-multipart>=0.0.6
+
+# Environment variables
+python-dotenv>=1.0.0
+pydantic-settings>=2.0.0
+
+# Logging
+loguru>=0.7.0
+
+# Geliştirme araçları
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.11.0
+isort>=5.12.0 
